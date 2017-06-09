@@ -1,6 +1,14 @@
 # elastiscout
-A quick &amp; dirty tool used to acquire the IP address of every EC2 node within an Elastic Beanstalk application environment
+A quick &amp; dirty tool used to acquire the IP address of every EC2 node within an Elastic Beanstalk application environment using AWS cli and EB cli.
 I mean really dirty. 
+
+## Prerequisites
+#### AWS cli
+`pip install --upgrade --user awscli`
+
+#### EB cli
+`pip install --upgrade --user awsebcli`
+
 
 ## Setup
 
