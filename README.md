@@ -15,7 +15,7 @@ I mean really dirty.
 ```
 git clone git@github.com:Rockbag/elastiscout.git
 cd elastiscout
-cp elastiscout /usr/local/bin
+cp elastiscout /usr/local/bin/
 ```
 
 ## Usage
