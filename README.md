@@ -9,6 +9,10 @@ I mean really dirty.
 #### EB cli
 `pip install --upgrade --user awsebcli`
 
+#### JQ
+You can install this with your package manager. e.g:
+`brew install jq`
+
 
 ## Setup
 
