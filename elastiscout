@@ -1,0 +1,4 @@
+(cd $PWD
+instances=$(eb list -v | grep $1 | sed "s/\[\],\'\.//g" | tr -d "'" | tr -d "[" | tr -d "]" | sed 's/^[ \t]*//' | sed "s/$1 : //")
+aws ec2 describe-instances --filters "Name=instance-id,Values=$instances" | jq -r '.Reservations[].Instances[].PublicIpAddress' | tr "\n" " "
+)
